@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<TableLayout    
+         android:layout_width="fill_parent"    
+         xmlns:android="http://schemas.android.com/apk/res/android"    
+         android:layout_height="wrap_content"    
+         > 
+         <TableRow > 
+         <TextView
+               android:layout_height="wrap_content"    
+               android:layout_width="80px"    
+               android:gravity="center" 
+               android:id="@+id/record_name">
+         </TextView>  
+         <TextView    
+               android:layout_height="wrap_content"   
+               android:layout_width="70px"
+               android:gravity="center"     
+               android:id="@+id/record_nums">  
+         </TextView> 
+         
+          <TextView    
+               android:layout_height="wrap_content"   
+               android:layout_width="40px"
+               android:gravity="center"     
+               android:id="@+id/record_times">  
+         </TextView> 
+          <TextView    
+               android:layout_height="wrap_content"   
+               android:layout_width="40px"
+               android:gravity="center"     
+               android:id="@+id/record_duration">  
+         </TextView> 
+         <TextView    
+               android:layout_height="wrap_content"   
+               android:layout_width="40px"
+               android:gravity="center"     
+               android:id="@+id/record_txtnum">  
+         </TextView> 
+          <TextView    
+               android:layout_height="wrap_content"   
+               android:layout_width="100px"
+               android:gravity="center"     
+               android:id="@+id/record_lasttime">  
+         </TextView> 
+         </TableRow> 
+</TableLayout>  
